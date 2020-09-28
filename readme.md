@@ -20,4 +20,19 @@
 - [ ] iFrame (1 elements, 9 properties)
 
 
+address
+article
+aside
+body
+div
+footer
+header
+main
+nav
+section
+
+<body>, <nav>, <article>, <aside>,  <hgroup>, <footer>, <section>, <address>;
+
+
+
 
