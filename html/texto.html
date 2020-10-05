@@ -3,38 +3,97 @@
 
 <head>
 
+  <style>
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+      </style>
+
   <title>PRIMER TEXTO</title>
   <meta charset="UTF-8">
   <meta name="description" content="texto"/>
   <meta name="author" content="laura"/>
+  <link href="styles.css">
+
+  <style>
+    #principal {
+    background-color: red;
+}
+.fondo {
+  background-color: green;
+}
+  </style>
 
 </head>
 
 <body style="background-color:powderblue;">
 
   <h1>titulo del texto</h1>
-  <h2>titulo del texto</h2>
+  <h2 class="fondo">titulo del texto</h2>
   <h3>titulo del texto</h3>
   <h4>titulo del texto</h4>
   <h5>titulo del texto</h5>
   
-  <h1 style="font-size:60px;">titulo 1</h1>
+  <h1 style="font-size:60px;" id="principal">titulo 1</h1>
 
   <h1 style="background-color:rgb(176, 230, 183);">titulo 2</h1>
 
-
   <p style="background-color:rgb(71, 255, 95);">PRIMER <br>PARRAFO  </p>
+
+  <h1 style="font-family:verdana;">This is a heading</h1>
+  <p style="font-family:courier;">This is a paragraph.</p>
 
   <p style="color:blue;">PRIMER PARRAFO</p>
   <hr>
   
-  <ul>
+  <ul class="fondo">
      <li>carro</li>
      <li>patinete</li>
      <li>moto</li>
      <li>bicicleta</li>
   </ul>
   
+  <h2>HTML Table</h2>
+  
+  <table>
+    <tr>
+      <th>medios de transporte</th>
+      <th>tiempo empleado</th>
+      
+    </tr>
+    <tr>
+      <td>carro</td>
+      <td>10 minutos</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>moto</td>
+      <td>8 minutos</td>
+      
+    </tr>
+    <tr>
+      <td>bicicleta</td>
+      <td>25 minutos</td>
+      
+    </tr>
+    <tr>
+      <td>caminando</td>
+      <td>60 minutos</td>
+      
+   
+  </table>
   
   <section>
      <article>
@@ -99,6 +158,14 @@
       <dt>bicleta</dt>
       <dd>-transporte ruedas verde</dd>
   </dl>
+  
+  <h2>HTML Table</h2>
+  
+  
+    
+
+
+     
 
  <link rel="stylesheet" href="">
     <a href=”url”>anchor text</a>
